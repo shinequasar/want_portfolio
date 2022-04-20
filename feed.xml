@@ -3,10 +3,10 @@
   <channel>
     <title>JungSoYeon</title>
     <description>JUNG SO YEON</description>
-    <link>http://localhost:4000/want_portfolio/</link>
-    <atom:link href="http://localhost:4000/want_portfolio/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 20 Apr 2022 17:14:30 +0900</pubDate>
-    <lastBuildDate>Wed, 20 Apr 2022 17:14:30 +0900</lastBuildDate>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 20 Apr 2022 19:08:27 +0900</pubDate>
+    <lastBuildDate>Wed, 20 Apr 2022 19:08:27 +0900</lastBuildDate>
     <generator>Jekyll v4.0.1</generator>
     
       <item>
@@ -16,8 +16,8 @@
 링크를 클릭해 주세요.&lt;/p&gt;
 </description>
         <pubDate>Sun, 11 Jul 2021 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/want_portfolio/blog/demo</link>
-        <guid isPermaLink="true">http://localhost:4000/want_portfolio/blog/demo</guid>
+        <link>http://localhost:4000/blog/demo</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/demo</guid>
         
         <category>Blog</category>
         
@@ -30,8 +30,8 @@
 &lt;p&gt;&lt;a href=&quot;https://www.dailysecu.com/news/articleView.html?idxno=122508&quot;&gt;» 데일리시큐&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Mon, 29 Mar 2021 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/want_portfolio/blog/demo-copy</link>
-        <guid isPermaLink="true">http://localhost:4000/want_portfolio/blog/demo-copy</guid>
+        <link>http://localhost:4000/blog/demo-copy</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/demo-copy</guid>
         
         <category>News</category>
         
