@@ -12,7 +12,7 @@
   <meta property="og:type" content="website" />
   <meta
     property="og:title"
-    content="[Crawler] 유튜브 CSV 크롤링 워드클라우드 |  JungSoYeon"
+    content="[Crawler] 유튜브 댓글 및 감정분석 프로그램 개발 |  JungSoYeon"
   />
   <meta property="og:description" content='D-day 크롬 확장프로그램 개발' />
   <meta property="og:image" content="/assets/images/projects/demo.jpg" /> <!-- Edit this -->
@@ -43,7 +43,7 @@
   <script src="https://kit.fontawesome.com/e9e8beb1d5.js" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script>
   <script src="/assets/js/hyde.js"></script>
-  <title>[Crawler] 유튜브 CSV 크롤링 워드클라우드 |  JungSoYeon</title>
+  <title>[Crawler] 유튜브 댓글 및 감정분석 프로그램 개발 |  JungSoYeon</title>
 </head>
 
   <body>
@@ -102,7 +102,7 @@
     <section class="hyde main">
        <div class="hyde jumbotron">
   <div class="hyde container">
-    <h1>[Crawler] 유튜브 CSV 크롤링 워드클라우드</h1>
+    <h1>[Crawler] 유튜브 댓글 및 감정분석 프로그램 개발</h1>
     
     <h2>D-day 크롬 확장프로그램 개발</h2>
     
@@ -118,18 +118,22 @@
   
   <img src="/assets/images/projects//csv/1.png" alt="/csv/1" />
     <h1 id="프로젝트요약">프로젝트요약</h1>
-<p>유튜브 CSV 크롤링 자동화 및 워드클라우드 제작 프로그램</p>
+<p>유튜브 댓글분석 프로그램 개발 (AI감정분석, CSV, 워드클라우드, 형태소분석)</p>
 
-<h3 id="프로젝트-기간">프로젝트 기간</h3>
-<p>2021년 12월 1일 - 3일</p>
+<h2 id="프로젝트-기간">프로젝트 기간</h2>
+<ul>
+  <li>2021년 12월 1일 - 3일</li>
+  <li>2022년 6월 업데이트</li>
+</ul>
 
 <h2 id="프로젝트-소개">프로젝트 소개</h2>
-
-<ul>
-  <li>유튜브 댓글 크롤링 및 엑셀(CSV) 파일로 정리 및 저장</li>
-  <li>유튜브 댓글 빈도별 워드클라우드 생성</li>
-  <li>직접 사용하기 위해 제작한 토이프로젝트</li>
-</ul>
+<ol>
+  <li>유튜브 <strong>링크 하나</strong>만 입력하면</li>
+  <li>해당 유튜브의 <strong>댓글들을 모조리 받아온 후</strong> 댓글 내용을 <strong>AI 감정분석</strong>해 받아오고
+  (원한다면 대댓글까지)</li>
+  <li>댓글 및 각종 작성정보들과 감정분석 결과를 정제하여 <strong>CSV 형태</strong>로 저장</li>
+  <li>해당 댓글들에서 많이 사용된 단어들을 형태소 분석하여 <strong>빈도별 댓글 워드클라우드 생성</strong></li>
+</ol>
 
 <h2 id="제작동기">제작동기</h2>
 
@@ -140,6 +144,9 @@
 
 <h2 id="프로젝트-깃헙주소">프로젝트 깃헙주소</h2>
 <p><a href="https://github.com/shinequasar/gui-crawler.git">- https://github.com/shinequasar/gui-crawler.git</a></p>
+
+<h2 id="개발일지">개발일지</h2>
+<p><a href="https://blog.naver.com/shinequasar/222767662416">https://blog.naver.com/shinequasar/222767662416</a></p>
 
 <p><br /></p>
 <hr />
@@ -155,28 +162,39 @@
   <li>의뢰인 명으로 파일이름 자동생성</li>
   <li>댓글 워드클라우드 기능</li>
   <li>원하는 이미지 삽입시 해당 이미지모양대로 워드클라우드 모양 설정가능</li>
+  <li>댓글 내용 AI 감정분석 후 (부정/긍정/중립) 으로 분석</li>
 </ul>
 
 <h2 id="gui"><strong>GUI</strong></h2>
 
 <p><img src="/assets\images\projects\csv\1.png" alt="크롤링" /></p>
 
-<h2 id="wordcloud"><strong>wordCloud</strong></h2>
+<h2 id="wordcloud---워드클라우드모양변경가능"><strong>wordCloud - 워드클라우드(모양변경가능)</strong></h2>
 
 <ul>
-  <li>추후 html 관련 키워드 정제필요</li>
+  <li>html 관련 키워드 정제 (불용어로 지정)
+<img src="/assets\images\projects\csv\11.png" alt="크롤링" /></li>
 </ul>
 
-<p><img src="/assets\images\projects\csv\2.png" alt="크롤링" /></p>
+<p>=&gt; 디폴트 모양형태
+<img src="/assets\images\projects\csv\222.png" alt="크롤링" /></p>
+
+<p>=&gt; 파이리 모양으로 만든버전
+<img src="/assets\images\projects\csv\333.png" alt="크롤링" /></p>
+
+<p><br /></p>
+<hr />
+<p><br /></p>
 
 <h2 id="csv">CSV</h2>
 
 <h3 id="--의뢰내용시트">- ‘의뢰내용’시트</h3>
 <ul>
-  <li>댓글작성자 / 작성날짜 / 좋아요 수 / 댓글 /  작성자채널 URL 등의 정보를 수집</li>
+  <li>댓글작성자 / 작성날짜 / 좋아요 수 / 댓글 / 감정분석결과 /  작성자채널 URL 등의 정보를 수집</li>
+  <li>댓글 감정분석은 (positive / neutral / negative) 로 분석됨.</li>
 </ul>
 
-<p><img src="/assets\images\projects\csv\3.png" alt="크롤링" /></p>
+<p><img src="/assets\images\projects\csv\444.png" alt="크롤링" /></p>
 
 <h3 id="--분석표-시트">- ‘분석표’ 시트</h3>
 <p><img src="/assets\images\projects\csv\4.png" alt="크롤링" /></p>
